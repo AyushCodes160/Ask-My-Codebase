@@ -1,0 +1,161 @@
+INFO:     Will watch for changes in these directories: ['/Users/ayushkumar/Downloads/paper-rag/code-rag/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [84299] using WatchFiles
+INFO:     Started server process [84373]
+INFO:     Waiting for application startup.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Starting up - checking for existing FAISS index...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6229.91it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+INFO:     Application startup complete.
+[RAG] Index loaded — 92 vectors, 92 metadata entries.
+FAISS index loaded successfully.
+INFO:     127.0.0.1:61619 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61619 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "OPTIONS /load_repo HTTP/1.1" 200 OK
+[clone_repo] Repository already exists at 'repos/Real-Time-Multilingual-Voice-AI-Agent'. Skipping clone.
+
+Found 89 source file(s) in '/Users/ayushkumar/Downloads/paper-rag/code-rag/backend/repos/Real-Time-Multilingual-Voice-AI-Agent'
+Reading files:   0%|          | 0/89 [00:00<?, ?it/s]Reading files:  87%|████████▋ | 77/89 [00:00<00:00, 612.70it/s]Reading files: 100%|██████████| 89/89 [00:00<00:00, 669.92it/s]
+  server/agent/llm_caller.py: 1 chunk(s)
+  server/agent/memory.py: 1 chunk(s)
+  server/agent/orchestrator.py: 2 chunk(s)
+  server/agent/prompts.py: 1 chunk(s)
+  server/agent/state_machine.py: 1 chunk(s)
+  server/agent/tools.py: 1 chunk(s)
+  server/api.py: 1 chunk(s)
+  server/barge_in.py: 1 chunk(s)
+  server/campaign.py: 1 chunk(s)
+  server/keep_alive.py: 1 chunk(s)
+  server/latency.py: 1 chunk(s)
+  server/main.py: 1 chunk(s)
+  server/models/db.py: 1 chunk(s)
+  server/scheduling/scheduler.py: 1 chunk(s)
+  server/scheduling/worker.py: 1 chunk(s)
+  server/static/assets/index-ft767YOm.js: 1 chunk(s)
+  server/stt.py: 1 chunk(s)
+  server/tts.py: 1 chunk(s)
+  web/eslint.config.js: 1 chunk(s)
+  web/postcss.config.js: 1 chunk(s)
+  web/src/App.tsx: 1 chunk(s)
+  web/src/components/AppointmentPanel.tsx: 1 chunk(s)
+  web/src/components/LatencyPanel.tsx: 1 chunk(s)
+  web/src/components/NavLink.tsx: 1 chunk(s)
+  web/src/components/ReasoningPanel.tsx: 1 chunk(s)
+  web/src/components/StatusBadge.tsx: 1 chunk(s)
+  web/src/components/TranscriptPanel.tsx: 1 chunk(s)
+  web/src/components/VoiceAgent.tsx: 2 chunk(s)
+  web/src/components/ui/accordion.tsx: 1 chunk(s)
+  web/src/components/ui/alert-dialog.tsx: 1 chunk(s)
+  web/src/components/ui/alert.tsx: 1 chunk(s)
+  web/src/components/ui/aspect-ratio.tsx: 1 chunk(s)
+  web/src/components/ui/avatar.tsx: 1 chunk(s)
+  web/src/components/ui/badge.tsx: 1 chunk(s)
+  web/src/components/ui/breadcrumb.tsx: 1 chunk(s)
+  web/src/components/ui/button.tsx: 1 chunk(s)
+  web/src/components/ui/calendar.tsx: 1 chunk(s)
+  web/src/components/ui/card.tsx: 1 chunk(s)
+  web/src/components/ui/carousel.tsx: 1 chunk(s)
+  web/src/components/ui/chart.tsx: 1 chunk(s)
+  web/src/components/ui/checkbox.tsx: 1 chunk(s)
+  web/src/components/ui/collapsible.tsx: 1 chunk(s)
+  web/src/components/ui/command.tsx: 1 chunk(s)
+  web/src/components/ui/context-menu.tsx: 1 chunk(s)
+  web/src/components/ui/dialog.tsx: 1 chunk(s)
+  web/src/components/ui/drawer.tsx: 1 chunk(s)
+  web/src/components/ui/dropdown-menu.tsx: 1 chunk(s)
+  web/src/components/ui/form.tsx: 1 chunk(s)
+  web/src/components/ui/hover-card.tsx: 1 chunk(s)
+  web/src/components/ui/input-otp.tsx: 1 chunk(s)
+  web/src/components/ui/input.tsx: 1 chunk(s)
+  web/src/components/ui/label.tsx: 1 chunk(s)
+  web/src/components/ui/menubar.tsx: 1 chunk(s)
+  web/src/components/ui/navigation-menu.tsx: 1 chunk(s)
+  web/src/components/ui/pagination.tsx: 1 chunk(s)
+  web/src/components/ui/popover.tsx: 1 chunk(s)
+  web/src/components/ui/progress.tsx: 1 chunk(s)
+  web/src/components/ui/radio-group.tsx: 1 chunk(s)
+  web/src/components/ui/resizable.tsx: 1 chunk(s)
+  web/src/components/ui/scroll-area.tsx: 1 chunk(s)
+  web/src/components/ui/select.tsx: 1 chunk(s)
+  web/src/components/ui/separator.tsx: 1 chunk(s)
+  web/src/components/ui/sheet.tsx: 1 chunk(s)
+  web/src/components/ui/sidebar.tsx: 2 chunk(s)
+  web/src/components/ui/skeleton.tsx: 1 chunk(s)
+  web/src/components/ui/slider.tsx: 1 chunk(s)
+  web/src/components/ui/sonner.tsx: 1 chunk(s)
+  web/src/components/ui/switch.tsx: 1 chunk(s)
+  web/src/components/ui/table.tsx: 1 chunk(s)
+  web/src/components/ui/tabs.tsx: 1 chunk(s)
+  web/src/components/ui/textarea.tsx: 1 chunk(s)
+  web/src/components/ui/toast.tsx: 1 chunk(s)
+  web/src/components/ui/toaster.tsx: 1 chunk(s)
+  web/src/components/ui/toggle-group.tsx: 1 chunk(s)
+  web/src/components/ui/toggle.tsx: 1 chunk(s)
+  web/src/components/ui/tooltip.tsx: 1 chunk(s)
+  web/src/components/ui/use-toast.ts: 1 chunk(s)
+  web/src/hooks/use-mobile.tsx: 1 chunk(s)
+  web/src/hooks/use-toast.ts: 1 chunk(s)
+  web/src/lib/utils.ts: 1 chunk(s)
+  web/src/main.tsx: 1 chunk(s)
+  web/src/pages/Index.tsx: 1 chunk(s)
+  web/src/pages/NotFound.tsx: 1 chunk(s)
+  web/src/test/example.test.ts: 1 chunk(s)
+  web/src/test/setup.ts: 1 chunk(s)
+  web/src/vite-env.d.ts: 1 chunk(s)
+  web/tailwind.config.ts: 1 chunk(s)
+  web/vite.config.ts: 1 chunk(s)
+  web/vitest.config.ts: 1 chunk(s)
+
+Total chunks to embed: 92
+Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5624.44it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Embedding chunks (this may take a minute)...
+Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  33%|███▎      | 1/3 [00:02<00:05,  2.58s/it]Batches:  67%|██████▋   | 2/3 [00:02<00:01,  1.18s/it]Batches: 100%|██████████| 3/3 [00:03<00:00,  1.34it/s]Batches: 100%|██████████| 3/3 [00:03<00:00,  1.00s/it]
+
+Done!
+  FAISS index saved to : faiss_index/index.faiss
+  Metadata saved to    : faiss_index/metadata.json
+  Total vectors        : 92
+  Embedding dimension  : 384
+[RAG] Index loaded — 92 vectors, 92 metadata entries.
+INFO:     127.0.0.1:61621 - "POST /load_repo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61632 - "OPTIONS /ask HTTP/1.1" 200 OK
+[model.py] Loading model on: CPU
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4563.30it/s]
+Both `max_new_tokens` (=150) and `max_length`(=2048) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+WARNING:  WatchFiles detected changes in 'test_omp_fix.py'. Reloading...
+INFO:     Started server process [84518]
+INFO:     Waiting for application startup.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Starting up - checking for existing FAISS index...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3785.77it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+INFO:     Application startup complete.
+[RAG] Index loaded — 92 vectors, 92 metadata entries.
+FAISS index loaded successfully.
+[model.py] Loading model on: CPU
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4442.95it/s]
+Both `max_new_tokens` (=150) and `max_length`(=2048) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

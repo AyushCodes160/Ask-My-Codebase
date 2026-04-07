@@ -1,0 +1,30 @@
+# Web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Data validation
+pydantic
+
+# Git operations
+gitpython
+
+# Embeddings
+sentence-transformers
+
+# Vector database
+faiss-cpu
+
+# Deep learning
+torch
+transformers
+protobuf
+sentencepiece
+
+# LoRA / parameter-efficient fine-tuning
+peft
+accelerate
+
+# Utilities
+tqdm
+numpy
