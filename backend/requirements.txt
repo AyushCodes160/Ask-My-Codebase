@@ -28,3 +28,7 @@ accelerate
 # Utilities
 tqdm
 numpy
+
+# Streamlit frontend
+streamlit
+requests
